@@ -17,6 +17,7 @@ h1{
     justify-content: center;
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 .caja3,.caja5,.caja7{
     background: #ececec;
@@ -24,4 +25,11 @@ h1{
 p{
     margin: 5px;
     font-size: 12px;
+}
+img{
+    width:100%;
+    height:100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
 }
